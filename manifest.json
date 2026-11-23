@@ -1,0 +1,23 @@
+{
+  "name": "ig_activity_wrapper",
+  "description": "Open liked posts in a new tab.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.instagram.com/your_activity/interactions/likes*"
+      ],
+      "js": [
+        "utils.js",
+        "wrapper.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "https://*.instagram.com/*"
+  ]
+}
