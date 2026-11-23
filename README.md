@@ -6,7 +6,7 @@ Basically [instahancer.js](https://github.com/schalkburger/instahancer/blob/main
 
 
 Usage
-1. `git pull` repo
+1. `git clone` this repo
 2. Navigate to "Manage Extensions" page in Chrome
 3. Turn on Developer Mode
-4. Load unpacked and select repo folder
+4. Load unpacked and select the cloned repo folder
